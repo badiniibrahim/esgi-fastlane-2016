@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8800061DF1B5B800088647 /* TutoFastLaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8800051DF1B5B800088647 /* TutoFastLaneUITests.swift */; };
+		EC8800151DF1B86F00088647 /* GemFile in Resources */ = {isa = PBXBuildFile; fileRef = EC8800141DF1B86F00088647 /* GemFile */; };
+		EC88FFF11DF1B5B800088647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88FFF01DF1B5B800088647 /* AppDelegate.swift */; };
+		EC88FFF31DF1B5B800088647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88FFF21DF1B5B800088647 /* ViewController.swift */; };
+		EC88FFF61DF1B5B800088647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC88FFF41DF1B5B800088647 /* Main.storyboard */; };
+		EC88FFF81DF1B5B800088647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC88FFF71DF1B5B800088647 /* Assets.xcassets */; };
+		EC88FFFB1DF1B5B800088647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC88FFF91DF1B5B800088647 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8800021DF1B5B800088647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC88FFE51DF1B5B700088647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC88FFEC1DF1B5B700088647;
+			remoteInfo = TutoFastLane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8800011DF1B5B800088647 /* TutoFastLaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutoFastLaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8800051DF1B5B800088647 /* TutoFastLaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutoFastLaneUITests.swift; sourceTree = "<group>"; };
+		EC8800071DF1B5B800088647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8800141DF1B86F00088647 /* GemFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GemFile; sourceTree = "<group>"; };
+		EC88FFED1DF1B5B700088647 /* TutoFastLane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutoFastLane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC88FFF01DF1B5B800088647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC88FFF21DF1B5B800088647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC88FFF51DF1B5B800088647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC88FFF71DF1B5B800088647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC88FFFA1DF1B5B800088647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC88FFFC1DF1B5B800088647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC88FFEA1DF1B5B700088647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC88FFFE1DF1B5B800088647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8800041DF1B5B800088647 /* TutoFastLaneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8800051DF1B5B800088647 /* TutoFastLaneUITests.swift */,
+				EC8800071DF1B5B800088647 /* Info.plist */,
+			);
+			path = TutoFastLaneUITests;
+			sourceTree = "<group>";
+		};
+		EC88FFE41DF1B5B700088647 = {
+			isa = PBXGroup;
+			children = (
+				EC8800141DF1B86F00088647 /* GemFile */,
+				EC88FFEF1DF1B5B700088647 /* TutoFastLane */,
+				EC8800041DF1B5B800088647 /* TutoFastLaneUITests */,
+				EC88FFEE1DF1B5B700088647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC88FFEE1DF1B5B700088647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC88FFED1DF1B5B700088647 /* TutoFastLane.app */,
+				EC8800011DF1B5B800088647 /* TutoFastLaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC88FFEF1DF1B5B700088647 /* TutoFastLane */ = {
+			isa = PBXGroup;
+			children = (
+				EC88FFF01DF1B5B800088647 /* AppDelegate.swift */,
+				EC88FFF21DF1B5B800088647 /* ViewController.swift */,
+				EC88FFF41DF1B5B800088647 /* Main.storyboard */,
+				EC88FFF71DF1B5B800088647 /* Assets.xcassets */,
+				EC88FFF91DF1B5B800088647 /* LaunchScreen.storyboard */,
+				EC88FFFC1DF1B5B800088647 /* Info.plist */,
+			);
+			path = TutoFastLane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8800001DF1B5B800088647 /* TutoFastLaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC88000D1DF1B5B800088647 /* Build configuration list for PBXNativeTarget "TutoFastLaneUITests" */;
+			buildPhases = (
+				EC88FFFD1DF1B5B800088647 /* Sources */,
+				EC88FFFE1DF1B5B800088647 /* Frameworks */,
+				EC88FFFF1DF1B5B800088647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8800031DF1B5B800088647 /* PBXTargetDependency */,
+			);
+			name = TutoFastLaneUITests;
+			productName = TutoFastLaneUITests;
+			productReference = EC8800011DF1B5B800088647 /* TutoFastLaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EC88FFEC1DF1B5B700088647 /* TutoFastLane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC88000A1DF1B5B800088647 /* Build configuration list for PBXNativeTarget "TutoFastLane" */;
+			buildPhases = (
+				EC88FFE91DF1B5B700088647 /* Sources */,
+				EC88FFEA1DF1B5B700088647 /* Frameworks */,
+				EC88FFEB1DF1B5B700088647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutoFastLane;
+			productName = TutoFastLane;
+			productReference = EC88FFED1DF1B5B700088647 /* TutoFastLane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC88FFE51DF1B5B700088647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ESGI;
+				TargetAttributes = {
+					EC8800001DF1B5B800088647 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC88FFEC1DF1B5B700088647;
+					};
+					EC88FFEC1DF1B5B700088647 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC88FFE81DF1B5B700088647 /* Build configuration list for PBXProject "TutoFastLane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC88FFE41DF1B5B700088647;
+			productRefGroup = EC88FFEE1DF1B5B700088647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC88FFEC1DF1B5B700088647 /* TutoFastLane */,
+				EC8800001DF1B5B800088647 /* TutoFastLaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC88FFEB1DF1B5B700088647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC88FFFB1DF1B5B800088647 /* LaunchScreen.storyboard in Resources */,
+				EC88FFF81DF1B5B800088647 /* Assets.xcassets in Resources */,
+				EC8800151DF1B86F00088647 /* GemFile in Resources */,
+				EC88FFF61DF1B5B800088647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC88FFFF1DF1B5B800088647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC88FFE91DF1B5B700088647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC88FFF31DF1B5B800088647 /* ViewController.swift in Sources */,
+				EC88FFF11DF1B5B800088647 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC88FFFD1DF1B5B800088647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8800061DF1B5B800088647 /* TutoFastLaneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8800031DF1B5B800088647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC88FFEC1DF1B5B700088647 /* TutoFastLane */;
+			targetProxy = EC8800021DF1B5B800088647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC88FFF41DF1B5B800088647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC88FFF51DF1B5B800088647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC88FFF91DF1B5B800088647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC88FFFA1DF1B5B800088647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8800081DF1B5B800088647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8800091DF1B5B800088647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC88000B1DF1B5B800088647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutoFastLane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgi.TutoFastLane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC88000C1DF1B5B800088647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutoFastLane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgi.TutoFastLane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC88000E1DF1B5B800088647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TutoFastLaneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgi.TutoFastLaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TutoFastLane;
+			};
+			name = Debug;
+		};
+		EC88000F1DF1B5B800088647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TutoFastLaneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esgi.TutoFastLaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TutoFastLane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC88000A1DF1B5B800088647 /* Build configuration list for PBXNativeTarget "TutoFastLane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC88000B1DF1B5B800088647 /* Debug */,
+				EC88000C1DF1B5B800088647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC88000D1DF1B5B800088647 /* Build configuration list for PBXNativeTarget "TutoFastLaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC88000E1DF1B5B800088647 /* Debug */,
+				EC88000F1DF1B5B800088647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC88FFE81DF1B5B700088647 /* Build configuration list for PBXProject "TutoFastLane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8800081DF1B5B800088647 /* Debug */,
+				EC8800091DF1B5B800088647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC88FFE51DF1B5B700088647 /* Project object */;
+}
