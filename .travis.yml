@@ -1,7 +1,7 @@
     osx_image: xcode8.1
     language: objective-c
         branches:
-            only:
+         only:
             - develop
             - master
     notifications:
