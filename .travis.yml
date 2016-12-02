@@ -10,5 +10,5 @@
         -gem install bundler
         -bundle install && brew bundle
     script:
-        Ò-bundle exec fastlane tests
+        -bundle exec fastlane tests
 
